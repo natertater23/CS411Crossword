@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		611CFD64223A1176008F006C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611CFD63223A1176008F006C /* AppDelegate.swift */; };
+		611CFD66223A1176008F006C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611CFD65223A1176008F006C /* ViewController.swift */; };
+		611CFD69223A1176008F006C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611CFD67223A1176008F006C /* Main.storyboard */; };
+		611CFD6B223A1178008F006C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611CFD6A223A1178008F006C /* Assets.xcassets */; };
+		611CFD6E223A1178008F006C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611CFD6C223A1178008F006C /* LaunchScreen.storyboard */; };
+		611CFD79223A1179008F006C /* CrosswordPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611CFD78223A1179008F006C /* CrosswordPuzzleTests.swift */; };
+		611CFD84223A1179008F006C /* CrosswordPuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611CFD83223A1179008F006C /* CrosswordPuzzleUITests.swift */; };
+		613973AC2266C84800D454B4 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613973AB2266C84800D454B4 /* CustomButton.swift */; };
+		613973AE2266CA5700D454B4 /* CrosswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613973AD2266CA5700D454B4 /* CrosswordGenerator.swift */; };
+		613973B02266CA9200D454B4 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613973AF2266CA9200D454B4 /* Dictionary.swift */; };
+		613973B22266F6A700D454B4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 613973B12266F6A700D454B4 /* Podfile */; };
+		613973B5226700CA00D454B4 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613973B4226700CA00D454B4 /* StartViewController.swift */; };
+		613973B72267E57500D454B4 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613973B62267E57500D454B4 /* UIButtonExtension.swift */; };
+		77AC458A9477230011967425 /* Pods_CrosswordPuzzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9653F6531E4CCDF531DB81 /* Pods_CrosswordPuzzle.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		611CFD75223A1179008F006C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 611CFD58223A1176008F006C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 611CFD5F223A1176008F006C;
+			remoteInfo = CrosswordPuzzle;
+		};
+		611CFD80223A1179008F006C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 611CFD58223A1176008F006C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 611CFD5F223A1176008F006C;
+			remoteInfo = CrosswordPuzzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27EF0DAD51DEEA07091B2981 /* Pods-CrosswordPuzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrosswordPuzzle.debug.xcconfig"; path = "Target Support Files/Pods-CrosswordPuzzle/Pods-CrosswordPuzzle.debug.xcconfig"; sourceTree = "<group>"; };
+		5C51AD796DD9C6F0801C15F2 /* Pods-CrosswordPuzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrosswordPuzzle.release.xcconfig"; path = "Target Support Files/Pods-CrosswordPuzzle/Pods-CrosswordPuzzle.release.xcconfig"; sourceTree = "<group>"; };
+		611CFD60223A1176008F006C /* CrosswordPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrosswordPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		611CFD63223A1176008F006C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		611CFD65223A1176008F006C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		611CFD68223A1176008F006C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		611CFD6A223A1178008F006C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		611CFD6D223A1178008F006C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		611CFD6F223A1178008F006C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611CFD74223A1179008F006C /* CrosswordPuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrosswordPuzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		611CFD78223A1179008F006C /* CrosswordPuzzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordPuzzleTests.swift; sourceTree = "<group>"; };
+		611CFD7A223A1179008F006C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611CFD7F223A1179008F006C /* CrosswordPuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrosswordPuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		611CFD83223A1179008F006C /* CrosswordPuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordPuzzleUITests.swift; sourceTree = "<group>"; };
+		611CFD85223A1179008F006C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613973AB2266C84800D454B4 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		613973AD2266CA5700D454B4 /* CrosswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordGenerator.swift; sourceTree = "<group>"; };
+		613973AF2266CA9200D454B4 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		613973B12266F6A700D454B4 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		613973B32266F7FF00D454B4 /* CP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CP-Bridging-Header.h"; sourceTree = "<group>"; };
+		613973B4226700CA00D454B4 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		613973B62267E57500D454B4 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		FE9653F6531E4CCDF531DB81 /* Pods_CrosswordPuzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrosswordPuzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		611CFD5D223A1176008F006C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77AC458A9477230011967425 /* Pods_CrosswordPuzzle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611CFD71223A1179008F006C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611CFD7C223A1179008F006C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AF4F5A0B4088301629DC5A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE9653F6531E4CCDF531DB81 /* Pods_CrosswordPuzzle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		611CFD57223A1176008F006C = {
+			isa = PBXGroup;
+			children = (
+				613973B32266F7FF00D454B4 /* CP-Bridging-Header.h */,
+				613973B12266F6A700D454B4 /* Podfile */,
+				611CFD62223A1176008F006C /* CrosswordPuzzle */,
+				611CFD77223A1179008F006C /* CrosswordPuzzleTests */,
+				611CFD82223A1179008F006C /* CrosswordPuzzleUITests */,
+				611CFD61223A1176008F006C /* Products */,
+				6D184A2E095E6CA5ECC519E5 /* Pods */,
+				0AF4F5A0B4088301629DC5A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		611CFD61223A1176008F006C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				611CFD60223A1176008F006C /* CrosswordPuzzle.app */,
+				611CFD74223A1179008F006C /* CrosswordPuzzleTests.xctest */,
+				611CFD7F223A1179008F006C /* CrosswordPuzzleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		611CFD62223A1176008F006C /* CrosswordPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				613973A422668D1200D454B4 /* Sources */,
+				611CFD63223A1176008F006C /* AppDelegate.swift */,
+				611CFD65223A1176008F006C /* ViewController.swift */,
+				613973B4226700CA00D454B4 /* StartViewController.swift */,
+				611CFD67223A1176008F006C /* Main.storyboard */,
+				611CFD6A223A1178008F006C /* Assets.xcassets */,
+				611CFD6C223A1178008F006C /* LaunchScreen.storyboard */,
+				611CFD6F223A1178008F006C /* Info.plist */,
+			);
+			path = CrosswordPuzzle;
+			sourceTree = "<group>";
+		};
+		611CFD77223A1179008F006C /* CrosswordPuzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				611CFD78223A1179008F006C /* CrosswordPuzzleTests.swift */,
+				611CFD7A223A1179008F006C /* Info.plist */,
+			);
+			path = CrosswordPuzzleTests;
+			sourceTree = "<group>";
+		};
+		611CFD82223A1179008F006C /* CrosswordPuzzleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				611CFD83223A1179008F006C /* CrosswordPuzzleUITests.swift */,
+				611CFD85223A1179008F006C /* Info.plist */,
+			);
+			path = CrosswordPuzzleUITests;
+			sourceTree = "<group>";
+		};
+		613973A422668D1200D454B4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				613973B62267E57500D454B4 /* UIButtonExtension.swift */,
+				613973AB2266C84800D454B4 /* CustomButton.swift */,
+				613973AD2266CA5700D454B4 /* CrosswordGenerator.swift */,
+				613973AF2266CA9200D454B4 /* Dictionary.swift */,
+			);
+			name = Sources;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		6D184A2E095E6CA5ECC519E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27EF0DAD51DEEA07091B2981 /* Pods-CrosswordPuzzle.debug.xcconfig */,
+				5C51AD796DD9C6F0801C15F2 /* Pods-CrosswordPuzzle.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		611CFD5F223A1176008F006C /* CrosswordPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 611CFD88223A1179008F006C /* Build configuration list for PBXNativeTarget "CrosswordPuzzle" */;
+			buildPhases = (
+				C0B0FA09C347E0AD68C789C2 /* [CP] Check Pods Manifest.lock */,
+				611CFD5C223A1176008F006C /* Sources */,
+				611CFD5D223A1176008F006C /* Frameworks */,
+				611CFD5E223A1176008F006C /* Resources */,
+				4FD47AA48BB01D92EF802109 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrosswordPuzzle;
+			productName = CrosswordPuzzle;
+			productReference = 611CFD60223A1176008F006C /* CrosswordPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		611CFD73223A1179008F006C /* CrosswordPuzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 611CFD8B223A1179008F006C /* Build configuration list for PBXNativeTarget "CrosswordPuzzleTests" */;
+			buildPhases = (
+				611CFD70223A1179008F006C /* Sources */,
+				611CFD71223A1179008F006C /* Frameworks */,
+				611CFD72223A1179008F006C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				611CFD76223A1179008F006C /* PBXTargetDependency */,
+			);
+			name = CrosswordPuzzleTests;
+			productName = CrosswordPuzzleTests;
+			productReference = 611CFD74223A1179008F006C /* CrosswordPuzzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		611CFD7E223A1179008F006C /* CrosswordPuzzleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 611CFD8E223A1179008F006C /* Build configuration list for PBXNativeTarget "CrosswordPuzzleUITests" */;
+			buildPhases = (
+				611CFD7B223A1179008F006C /* Sources */,
+				611CFD7C223A1179008F006C /* Frameworks */,
+				611CFD7D223A1179008F006C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				611CFD81223A1179008F006C /* PBXTargetDependency */,
+			);
+			name = CrosswordPuzzleUITests;
+			productName = CrosswordPuzzleUITests;
+			productReference = 611CFD7F223A1179008F006C /* CrosswordPuzzleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		611CFD58223A1176008F006C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					611CFD5F223A1176008F006C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					611CFD73223A1179008F006C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 611CFD5F223A1176008F006C;
+					};
+					611CFD7E223A1179008F006C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 611CFD5F223A1176008F006C;
+					};
+				};
+			};
+			buildConfigurationList = 611CFD5B223A1176008F006C /* Build configuration list for PBXProject "CrosswordPuzzle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 611CFD57223A1176008F006C;
+			productRefGroup = 611CFD61223A1176008F006C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				611CFD5F223A1176008F006C /* CrosswordPuzzle */,
+				611CFD73223A1179008F006C /* CrosswordPuzzleTests */,
+				611CFD7E223A1179008F006C /* CrosswordPuzzleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		611CFD5E223A1176008F006C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611CFD6E223A1178008F006C /* LaunchScreen.storyboard in Resources */,
+				611CFD6B223A1178008F006C /* Assets.xcassets in Resources */,
+				613973B22266F6A700D454B4 /* Podfile in Resources */,
+				611CFD69223A1176008F006C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611CFD72223A1179008F006C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611CFD7D223A1179008F006C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FD47AA48BB01D92EF802109 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrosswordPuzzle/Pods-CrosswordPuzzle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrosswordPuzzle/Pods-CrosswordPuzzle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0B0FA09C347E0AD68C789C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrosswordPuzzle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		611CFD5C223A1176008F006C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611CFD66223A1176008F006C /* ViewController.swift in Sources */,
+				613973B02266CA9200D454B4 /* Dictionary.swift in Sources */,
+				613973AE2266CA5700D454B4 /* CrosswordGenerator.swift in Sources */,
+				613973AC2266C84800D454B4 /* CustomButton.swift in Sources */,
+				613973B72267E57500D454B4 /* UIButtonExtension.swift in Sources */,
+				611CFD64223A1176008F006C /* AppDelegate.swift in Sources */,
+				613973B5226700CA00D454B4 /* StartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611CFD70223A1179008F006C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611CFD79223A1179008F006C /* CrosswordPuzzleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611CFD7B223A1179008F006C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611CFD84223A1179008F006C /* CrosswordPuzzleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		611CFD76223A1179008F006C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 611CFD5F223A1176008F006C /* CrosswordPuzzle */;
+			targetProxy = 611CFD75223A1179008F006C /* PBXContainerItemProxy */;
+		};
+		611CFD81223A1179008F006C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 611CFD5F223A1176008F006C /* CrosswordPuzzle */;
+			targetProxy = 611CFD80223A1179008F006C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		611CFD67223A1176008F006C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				611CFD68223A1176008F006C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		611CFD6C223A1178008F006C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				611CFD6D223A1178008F006C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		611CFD86223A1179008F006C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		611CFD87223A1179008F006C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		611CFD89223A1179008F006C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27EF0DAD51DEEA07091B2981 /* Pods-CrosswordPuzzle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MT5P2J63B;
+				INFOPLIST_FILE = CrosswordPuzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Crossword-Ant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CP-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		611CFD8A223A1179008F006C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C51AD796DD9C6F0801C15F2 /* Pods-CrosswordPuzzle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MT5P2J63B;
+				INFOPLIST_FILE = CrosswordPuzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Crossword-Ant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CP-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		611CFD8C223A1179008F006C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrosswordPuzzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.CrosswordPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrosswordPuzzle.app/CrosswordPuzzle";
+			};
+			name = Debug;
+		};
+		611CFD8D223A1179008F006C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrosswordPuzzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.CrosswordPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrosswordPuzzle.app/CrosswordPuzzle";
+			};
+			name = Release;
+		};
+		611CFD8F223A1179008F006C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrosswordPuzzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.CrosswordPuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrosswordPuzzle;
+			};
+			name = Debug;
+		};
+		611CFD90223A1179008F006C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrosswordPuzzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.CrosswordPuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrosswordPuzzle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		611CFD5B223A1176008F006C /* Build configuration list for PBXProject "CrosswordPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611CFD86223A1179008F006C /* Debug */,
+				611CFD87223A1179008F006C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		611CFD88223A1179008F006C /* Build configuration list for PBXNativeTarget "CrosswordPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611CFD89223A1179008F006C /* Debug */,
+				611CFD8A223A1179008F006C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		611CFD8B223A1179008F006C /* Build configuration list for PBXNativeTarget "CrosswordPuzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611CFD8C223A1179008F006C /* Debug */,
+				611CFD8D223A1179008F006C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		611CFD8E223A1179008F006C /* Build configuration list for PBXNativeTarget "CrosswordPuzzleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611CFD8F223A1179008F006C /* Debug */,
+				611CFD90223A1179008F006C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 611CFD58223A1176008F006C /* Project object */;
+}
